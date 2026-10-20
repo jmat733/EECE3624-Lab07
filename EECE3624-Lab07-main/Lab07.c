@@ -1,5 +1,5 @@
 /***************************************************************************
- * Lab07.c (barebones starter code version)
+ * Lab07.c 
  *
  *   Created: 10/13/2026
  *    Author: Jake Matthews
@@ -65,7 +65,7 @@ void displayArray(unsigned char *cp){
 	for (int i = 0; i < ArraySize; i++) {
 		uart_tx(*(cp + i));
 	}
-	// Print a new line to align the output properly on the terminal
+	// Print a new line
 	uart_tx('\r');
 	uart_tx('\n');
 }
